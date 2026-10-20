@@ -27,7 +27,7 @@ while True:
 x=1
 total = 0
 
-while (x<=5):
+while (x <= 5):
     total+=x
     x+=1
     
