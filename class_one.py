@@ -1,5 +1,6 @@
 # class, method
 
+import utils.session
 class Car:
     def __init__ (self,brand_name,brand_color,price):
         self.brand=brand_name
