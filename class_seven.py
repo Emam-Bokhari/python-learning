@@ -40,5 +40,17 @@ def summation(*args):
 print(summation(1,2,3,4,5,10))
 
 # *args with another parameter
+def customer_info(customer_name,*products):
+    print(customer_name,products)
+    
 
-         
+customer_info("Moshfiqur Rahman","Pencil","Pen","Tablet","iPhone")
+
+# **kwargs
+def customer_info(customer_name,**products):
+    print(customer_name,products)
+    
+
+customer_info("Moshfiqur Rahman",product_name="macbook",product_price=89000)
+
+
