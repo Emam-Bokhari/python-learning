@@ -32,5 +32,3 @@ print(list_example[1])
 example_none=None 
 print(example_none)
 print(type(example_none))
-
-
